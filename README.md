@@ -30,8 +30,6 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 Inspected the CSVs and sketched out an ERD of the tables. Used a tool : [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
-![EmployeeSQL/Employees_ERD.png](Employess_ERD.png)
-
 * Used the information to create a table schema for each of the six CSV files. Remembered to specify data types, primary keys, foreign keys, and other constraints.
 
   * For the primary keys checked to see if the column is unique, otherwise created a [composite key](https://en.wikipedia.org/wiki/Compound_key). Which takes two primary keys in order to uniquely identify a row.

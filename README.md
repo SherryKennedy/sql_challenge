@@ -17,7 +17,7 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 1. Created a new repository for this project called `sql-challenge`. 
 
-2. Cloned the new repository to your computer.
+2. Cloned the new repository to local computer.
 
 3. Inside the local git repository, created a directory for the SQL challenge. Used a folder name to correspond to the challenge: **EmployeeSQL**.
 
@@ -73,11 +73,11 @@ Completed database, did the following:
 
 * If using a password, do not upload your password to your GitHub repository. See [https://www.youtube.com/watch?v=2uaTPmNvH0I](https://www.youtube.com/watch?v=2uaTPmNvH0I) and [https://help.github.com/en/github/using-git/ignoring-files](https://help.github.com/en/github/using-git/ignoring-files) for more information.
 
-2. Create a histogram to visualize the most common salary ranges for employees.
+2. Created a histogram to visualize the most common salary ranges for employees.
  
     ![1_FreqHistogramOfSalaries.png](1_FreqHistogramOfSalaries.png)
 
-3. Create a bar chart of average salary by title.
+3. Created a bar chart of average salary by title.
 
     ![2_AverageSalaryByStaffTitles.pdf](2_AverageSalaryByStaffTitles.png)
 
@@ -94,7 +94,7 @@ Completed database, did the following:
 
 * Created and uploaded a repository with the above files to GitHub a
 
-* Ensured your repository has regular commits and a thorough README.md file
+* Ensured repository had regular commits and a thorough README.md file
 
 
 - - -

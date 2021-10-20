@@ -79,7 +79,7 @@ Completed database, did the following:
 
 3. Create a bar chart of average salary by title.
 
-    ![2_AverageSalaryByStaffTitles.pdf](2_AverageSalaryByStaffTitles.pdf)
+    ![2_AverageSalaryByStaffTitles.pdf](2_AverageSalaryByStaffTitles.png)
 
 
 ## List of Content

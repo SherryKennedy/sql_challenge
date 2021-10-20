@@ -1,0 +1,42 @@
+# Modify this code to update the DB schema diagram.
+# To reset the sample schema, replace everything with
+# two dots ('..' - without quotes).
+# From quickdatabasediagrams.com
+
+titles
+--
+title_id varchar(30) PK
+title varchar(50)
+
+employees
+--
+emp_no int PK
+emp_title_id varchar(30) FK >- titles.title_id
+birth_date DATE
+first_name varchar(50)
+last_name varchar(50)
+sex varchar(10)
+hire_date DATE
+
+
+departments
+--
+dept_no  varchar(30) PK
+dept_name varchar(50)
+
+salaries
+--
+emp_no int FK >- employees.emp_no
+salary int
+
+dept_emp
+--
+emp_no int FK >- employees.emp_no
+dept_no varchar(30) FK >- departments.dept_no
+
+dept_manager
+--
+dept_no varchar(30) FK >- departments.dept_no
+emp_no int FK >- employees.emp_no
+
+

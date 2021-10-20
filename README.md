@@ -74,12 +74,13 @@ Completed database, did the following:
 * If using a password, do not upload your password to your GitHub repository. See [https://www.youtube.com/watch?v=2uaTPmNvH0I](https://www.youtube.com/watch?v=2uaTPmNvH0I) and [https://help.github.com/en/github/using-git/ignoring-files](https://help.github.com/en/github/using-git/ignoring-files) for more information.
 
 2. Create a histogram to visualize the most common salary ranges for employees.
+ 
+    ![1_FreqHistogramOfSalaries.png](1_FreqHistogramOfSalaries.png)
 
 3. Create a bar chart of average salary by title.
 
-## Epilogue
+    ![2_AverageSalaryByStaffTitles.pdf](2_AverageSalaryByStaffTitles.pdf)
 
-Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
 
 ## List of Content
 

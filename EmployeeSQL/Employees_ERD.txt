@@ -8,7 +8,9 @@
 
 # Created composite key for dept_emp
 # An employee can be in more than one department
-# Although dept_manager, emp_id is unique
+
+# Although dept_manager, emp_id is unique,ie) manager in charge of one dept., 
+# so errors if one manager is in control of 2 departments
 
 
 titles

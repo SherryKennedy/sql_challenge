@@ -25,10 +25,6 @@ DROP TABLE IF EXISTS dept_emp CASCADE;
 DROP TABLE IF EXISTS dept_manager CASCADE;
 
 
-
-
-
-
 CREATE TABLE "titles" (
     "title_id" varchar(30)   NOT NULL,
     "title" varchar(50)   NOT NULL,
@@ -60,17 +56,26 @@ CREATE TABLE "departments" (
 
 CREATE TABLE "salaries" (
     "emp_no" int   NOT NULL,
-    "salary" int   NOT NULL
+    "salary" int   NOT NULL,
+    CONSTRAINT "pk_salaries" PRIMARY KEY (
+        "emp_no"
+     )
 );
 
 CREATE TABLE "dept_emp" (
     "emp_no" int   NOT NULL,
-    "dept_no" varchar(30)   NOT NULL
+    "dept_no" varchar(30)   NOT NULL,
+    CONSTRAINT "pk_dept_emp" PRIMARY KEY (
+        "emp_no","dept_no"
+     )
 );
 
 CREATE TABLE "dept_manager" (
     "dept_no" varchar(30)   NOT NULL,
-    "emp_no" int   NOT NULL
+    "emp_no" int   NOT NULL,
+    CONSTRAINT "pk_dept_manager" PRIMARY KEY (
+        "emp_no"
+     )
 );
 
 ALTER TABLE "employees" ADD CONSTRAINT "fk_employees_emp_title_id" FOREIGN KEY("emp_title_id")
